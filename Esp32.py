@@ -7,8 +7,8 @@ LED_POWER = machine.Pin(2, machine.Pin.OUT)
 LED_WIFI = machine.Pin(15, machine.Pin.OUT)
 
 # Change these values according to your network name (SSID) and password
-SSID = "Daniki Helix"
-PASSWORD = "1811TheCatTheFox"
+SSID = "Wifi"
+PASSWORD = "password"
 
 LED_POWER.value(1)  # Board is powered on
 
